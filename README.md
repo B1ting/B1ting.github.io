@@ -799,7 +799,7 @@
         </div>
         <div class="footer-social">
             <a href="https://instagram.com/photo.nn52" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://vk.com/korochkina9" target="_blank"><i class="fab fa-vk"></i></a>
+            <a href="https://vk.com/pohotohh" target="_blank"><i class="fab fa-vk"></i></a>
             <a href="tel:89965640578"><i class="fas fa-phone"></i></a>
         </div>
     </div>
