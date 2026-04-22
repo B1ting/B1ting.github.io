@@ -23,7 +23,7 @@
         .navbar {
             display: flex;
             justify-content: space-between;
-            align-items: left;
+            align-items: center;
             padding: 1.2rem 5%;
             background: white;
             box-shadow: 0 2px 20px rgba(0,0,0,0.05);
