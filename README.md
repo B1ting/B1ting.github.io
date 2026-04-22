@@ -1,2 +1,102 @@
 # B1ting.github.io
-asdasdad
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты | Фотограф Анна</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <h1>Photo.nn52</h1>
+            <p>Анастасия Корочкина</p>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="portfolio.html">Портфолио</a></li>
+            <li><a href="reviews.html">Отзывы</a></li>
+            <li><a href="contacts.html" class="active">Контакты</a></li>
+        </ul>
+        <div class="burger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Свяжитесь со мной</h1>
+            <p>Я всегда на связи и рада новым проектам</p>
+        </div>
+    </section>
+
+    <section class="contacts-section">
+        <div class="container">
+            <div class="contacts-grid">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h3>Телефон</h3>
+                            <a href="tel:89965640578">8 (996) 564-05-78</a>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fab fa-instagram"></i>
+                        <div>
+                            <h3>Instagram</h3>
+                            <a href="https://instagram.com/photo.nn52" target="_blank">@photo.nn52</a>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fab fa-vk"></i>
+                        <div>
+                            <h3>ВКонтакте</h3>
+                            <a href="https://vk.com/korochkina9" target="_blank">@korochkina9</a>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Работаю по всей России</h3>
+                            <p>Выезд в любую точку, съёмка в студии и на локациях</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <h3>Напишите мне</h3>
+                    <form id="directMessageForm" class="direct-form">
+                        <input type="text" placeholder="Ваше имя" id="msgName" required>
+                        <input type="tel" placeholder="Ваш телефон" id="msgPhone" required>
+                        <textarea rows="4" placeholder="Сообщение..." id="msgText" required></textarea>
+                        <button type="submit" class="btn btn-primary">Отправить сообщение</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3>Photo.nn52</h3>
+                <p>Анна Корочкина</p>
+                <p>Фотограф с душой и сердцем</p>
+            </div>
+            <div class="footer-social">
+                <a href="https://instagram.com/photo.nn52" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://vk.com/korochkina9" target="_blank"><i class="fab fa-vk"></i></a>
+                <a href="tel:89965640578"><i class="fas fa-phone"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Photo.nn52 | Все права защищены</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
