@@ -765,7 +765,7 @@
                         <i class="fab fa-vk"></i>
                         <div>
                             <h3>ВКонтакте</h3>
-                            <a href="https://vk.com/korochkina9" target="_blank">@korochkina9</a>
+                            <a href="https://vk.com/pohotohh" target="_blank">@photo.nn52</a>
                         </div>
                     </div>
                     <div class="contact-card">
