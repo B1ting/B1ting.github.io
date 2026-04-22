@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-    <title>Photo.nn52 | Анна Корочкина - фотограф</title>
+    <title>Photo.nn52 | Анастасия Корочкина - фотограф</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
@@ -592,7 +592,7 @@
 <nav class="navbar">
     <div class="logo">
         <h1>Photo.nn52</h1>
-        <p>Анна Корочкина</p>
+        <p>Анастасия Корочкина</p>
     </div>
     <ul class="nav-links">
         <li><a href="#" data-page="home" class="active">Главная</a></li>
@@ -609,7 +609,7 @@
 <div id="home-page" class="page active-page">
     <section class="hero">
         <div class="hero-content">
-            <h2>Анна Корочкина</h2>
+            <h2>Анастасия Корочкина</h2>
             <h1>Фотограф, который <span class="highlight">видит душу</span></h1>
             <p>Создаю кадры, которые живут вечно. Ваши эмоции, любовь и счастье — в каждом снимке.</p>
             <div class="hero-buttons">
@@ -794,7 +794,7 @@
     <div class="footer-content">
         <div class="footer-info">
             <h3>Photo.nn52</h3>
-            <p>Анна Корочкина</p>
+            <p>Анастасия Корочкина</p>
             <p>Фотограф с душой и сердцем</p>
         </div>
         <div class="footer-social">
