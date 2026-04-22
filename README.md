@@ -649,13 +649,13 @@
                 </div>
                 <div class="service-card">
                     <i class="fas fa-ring"></i>
-                    <h3>Свадебная съёмка</h3>
-                    <p>Самый важный день в красивых и живых кадрах</p>
+                    <h3>Семейная</h3>
+                    <p>Особые даты заслуживают особенных воспоминаний!х</p>
                 </div>
                 <div class="service-card">
                     <i class="fas fa-image"></i>
-                    <h3>Репортаж</h3>
-                    <p>Мероприятия, праздники и важные события</p>
+                    <h3>детская</h3>
+                    <p>Запечатление детских и искренних улыбок</p>
                 </div>
             </div>
         </div>
@@ -677,8 +677,8 @@
                         <option value="">Выберите тип съёмки</option>
                         <option value="portrait">Портретная</option>
                         <option value="love">Love Story</option>
-                        <option value="wedding">Свадебная</option>
-                        <option value="event">Репортаж/Мероприятие</option>
+                        <option value="wedding">Семейная</option>
+                        <option value="event">Детская</option>
                     </select>
                 </div>
                 <div class="form-group">
@@ -710,8 +710,8 @@
                 <button class="filter-btn active" data-filter="all">Все работы</button>
                 <button class="filter-btn" data-filter="portrait">Портрет</button>
                 <button class="filter-btn" data-filter="love">Love Story</button>
-                <button class="filter-btn" data-filter="wedding">Свадьба</button>
-                <button class="filter-btn" data-filter="event">Репортаж</button>
+                <button class="filter-btn" data-filter="wedding">Семейная</button>
+                <button class="filter-btn" data-filter="event">Детская</button>
             </div>
             <div class="portfolio-grid" id="portfolioGrid"></div>
         </div>
