@@ -960,16 +960,48 @@
     });
     
     // Форма заявки
-    document.getElementById("bookingForm")?.addEventListener("submit", (e) => {
-        e.preventDefault();
+    const BOT_TOKEN = "8552942936:AAFFc0j_843pKNjqot3k0owGQCroO54sHh8";  // Замените!
+const CHAT_ID = "@Korochkina09Bot";               // Замените!
+
+document.getElementById("bookingForm")?.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    
+    const name = document.getElementById("name").value;
+    const phone = document.getElementById("phone").value;
+    const serviceSelect = document.getElementById("service");
+    const service = serviceSelect.options[serviceSelect.selectedIndex]?.text || "Не выбрано";
+    const message = document.getElementById("message").value;
+    
+    const text = `
+📸 НОВАЯ ЗАЯВКА НА ФОТОСЕССИЮ!
+
+👤 Имя: ${name}
+📞 Телефон: ${phone}
+📷 Тип съёмки: ${service}
+💬 Пожелания: ${message || "Не указаны"}
+
+⏰ Время: ${new Date().toLocaleString()}
+    `;
+    
+    try {
+        await fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ chat_id: CHAT_ID, text: text })
+        });
+        
         document.getElementById("bookingForm").classList.add("hidden");
         document.getElementById("formSuccess").classList.remove("hidden");
+        document.getElementById("bookingForm").reset();
+        
         setTimeout(() => {
-            document.getElementById("bookingForm").reset();
             document.getElementById("bookingForm").classList.remove("hidden");
             document.getElementById("formSuccess").classList.add("hidden");
         }, 3000);
-    });
+    } catch (error) {
+        alert("Ошибка отправки. Пожалуйста, свяжитесь по телефону 8-996-564-05-78");
+    }
+});
     
     // Форма сообщения
     document.getElementById("directMessageForm")?.addEventListener("submit", (e) => {
