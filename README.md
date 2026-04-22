@@ -654,7 +654,7 @@
                 </div>
                 <div class="service-card">
                     <i class="fas fa-image"></i>
-                    <h3>детская</h3>
+                    <h3>Детская</h3>
                     <p>Запечатление детских и искренних улыбок</p>
                 </div>
             </div>
@@ -960,7 +960,7 @@
     });
     
     // Форма заявки
-    const BOT_TOKEN = "8552942936:AAFFc0j_843pKNjqot3k0owGQCroO54sHh8";  // Замените!
+    const BOT_TOKEN = "8611754844:AAF9OY_3d3YRsyr1tnkrMJCxfbCTvL0kh0Q";  // Замените!
 const CHAT_ID = "@Korochkina09Bot";               // Замените!
 
 document.getElementById("bookingForm")?.addEventListener("submit", async (e) => {
