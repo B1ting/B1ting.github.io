@@ -23,7 +23,7 @@
         .navbar {
             display: flex;
             justify-content: space-between;
-            align-items: center;
+            align-items: left;
             padding: 1.2rem 5%;
             background: white;
             box-shadow: 0 2px 20px rgba(0,0,0,0.05);
@@ -76,7 +76,7 @@
         .hero {
             background: linear-gradient(135deg, #f5f0eb 0%, #fff 100%);
             padding: 4rem 5%;
-            text-align: center;
+            text-align: left;
         }
 
         .hero-content h2 {
@@ -104,7 +104,7 @@
         .hero-buttons {
             display: flex;
             gap: 1rem;
-            justify-content: center;
+            justify-content: left;
             flex-wrap: wrap;
         }
 
@@ -143,14 +143,14 @@
 
         .hero-stats {
             display: flex;
-            justify-content: center;
+            justify-content: left;
             gap: 3rem;
             margin-top: 3rem;
             flex-wrap: wrap;
         }
 
         .stat {
-            text-align: center;
+            text-align: left;
         }
 
         .stat h3 {
@@ -175,13 +175,13 @@
         }
 
         .section-title {
-            text-align: center;
+            text-align: left;
             font-size: 2rem;
             margin-bottom: 0.5rem;
         }
 
         .section-subtitle {
-            text-align: center;
+            text-align: left;
             color: #7a6e62;
             margin-bottom: 2rem;
         }
@@ -194,7 +194,7 @@
         }
 
         .service-card {
-            text-align: center;
+            text-align: left;
             padding: 2rem;
             background: #faf9f8;
             border-radius: 20px;
@@ -256,13 +256,13 @@
 
         .form-note {
             font-size: 0.7rem;
-            text-align: center;
+            text-align: left;
             margin-top: 1rem;
             color: #999;
         }
 
         .form-success {
-            text-align: center;
+            text-align: left;
             margin-top: 1rem;
             padding: 1rem;
             background: #4caf50;
@@ -282,7 +282,7 @@
 
         .filter-buttons {
             display: flex;
-            justify-content: center;
+            justify-content: left;
             gap: 0.8rem;
             flex-wrap: wrap;
             margin-bottom: 2rem;
@@ -399,7 +399,7 @@
 
         .contact-card {
             display: flex;
-            align-items: center;
+            align-items: left;
             gap: 1rem;
             padding: 1rem;
             background: white;
@@ -485,8 +485,8 @@
             height: 40px;
             border-radius: 50%;
             display: flex;
-            align-items: center;
-            justify-content: center;
+            align-items: left;
+            justify-content: left;
         }
 
         .close-modal:hover {
@@ -498,7 +498,7 @@
             bottom: 20px;
             left: 0;
             right: 0;
-            text-align: center;
+            text-align: left;
             color: white;
             background: rgba(0,0,0,0.5);
             padding: 0.5rem 1rem;
@@ -519,7 +519,7 @@
             margin: 0 auto;
             display: flex;
             justify-content: space-between;
-            align-items: center;
+            align-items: left;
             flex-wrap: wrap;
             gap: 1rem;
         }
@@ -536,7 +536,7 @@
         }
 
         .footer-bottom {
-            text-align: center;
+            text-align: left;
             padding-top: 1rem;
             margin-top: 1rem;
             border-top: 1px solid #444;
@@ -552,7 +552,7 @@
                 display: none;
                 width: 100%;
                 flex-direction: column;
-                text-align: center;
+                text-align: left;
                 padding: 1rem 0;
             }
             
@@ -771,7 +771,7 @@
                     <div class="contact-card">
                         <i class="fas fa-map-marker-alt"></i>
                         <div>
-                            <h3>Работаю по всей России</h3>
+                            <h3>Работаю по Нижнему Новгороду и Кстово</h3>
                             <p>Выезд в любую точку, съёмка в студии и на локациях</p>
                         </div>
                     </div>
