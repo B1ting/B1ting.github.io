@@ -956,7 +956,7 @@
     
     // Форма заявки
     const BOT_TOKEN = "6053052339:AAF7LCzSN1d1kD2-4QvaZsiKigYbszJXOCY";  // Замените!
-const CHAT_ID = "@GoBridgeBot";               // Замените!
+const CHAT_ID = "@TungySS";               // Замените!
 
 document.getElementById("bookingForm")?.addEventListener("submit", async (e) => {
     e.preventDefault();
