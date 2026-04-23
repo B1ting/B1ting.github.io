@@ -23,7 +23,7 @@
         .navbar {
             display: flex;
             justify-content: space-between;
-            align-items: left;
+            align-items: centre;
             padding: 1.2rem 5%;
             background: white;
             box-shadow: 0 2px 20px rgba(0,0,0,0.05);
@@ -104,7 +104,7 @@
         .hero-buttons {
             display: flex;
             gap: 1rem;
-            justify-content: left;
+            justify-content: centre;
             flex-wrap: wrap;
         }
 
@@ -175,13 +175,13 @@
         }
 
         .section-title {
-            text-align: left;
+            text-align: centre;
             font-size: 2rem;
             margin-bottom: 0.5rem;
         }
 
         .section-subtitle {
-            text-align: left;
+            text-align: centre;
             color: #7a6e62;
             margin-bottom: 2rem;
         }
@@ -194,7 +194,7 @@
         }
 
         .service-card {
-            text-align: left;
+            text-align: centre;
             padding: 2rem;
             background: #faf9f8;
             border-radius: 20px;
@@ -262,7 +262,7 @@
         }
 
         .form-success {
-            text-align: left;
+            text-align: centre;
             margin-top: 1rem;
             padding: 1rem;
             background: #4caf50;
@@ -485,8 +485,8 @@
             height: 40px;
             border-radius: 50%;
             display: flex;
-            align-items: left;
-            justify-content: left;
+            align-items: centre;
+            justify-content: centre;
         }
 
         .close-modal:hover {
@@ -498,7 +498,7 @@
             bottom: 20px;
             left: 0;
             right: 0;
-            text-align: left;
+            text-align: centre;
             color: white;
             background: rgba(0,0,0,0.5);
             padding: 0.5rem 1rem;
@@ -519,7 +519,7 @@
             margin: 0 auto;
             display: flex;
             justify-content: space-between;
-            align-items: left;
+            align-items: centre;
             flex-wrap: wrap;
             gap: 1rem;
         }
@@ -536,7 +536,7 @@
         }
 
         .footer-bottom {
-            text-align: left;
+            text-align: centre;
             padding-top: 1rem;
             margin-top: 1rem;
             border-top: 1px solid #444;
@@ -552,7 +552,7 @@
                 display: none;
                 width: 100%;
                 flex-direction: column;
-                text-align: left;
+                text-align: centre;
                 padding: 1rem 0;
             }
             
@@ -828,12 +828,7 @@
     ];
 
     // Отзывы
-    const reviewsData = [
-        { name: "Екатерина Смирнова", service: "Свадебная съёмка", text: "Анна — настоящий профессионал! Фотосессия прошла на одном дыхании. Результат превзошёл все ожидания. Спасибо за такие тёплые и живые кадры!", rating: 5 },
-        { name: "Дмитрий и Мария", service: "Love Story", text: "Очень понравилось работать с Анной. Она чувствует кадр, умеет расслабить и создать комфортную атмосферу. Фотографии получились очень естественными и красивыми.", rating: 5 },
-        { name: "Алина Кравцова", service: "Портретная съёмка", text: "Лучший фотограф! Сделала прекрасные снимки для моего портфолио. Рекомендую всем!", rating: 5 },
-        { name: "Компания 'Импульс'", service: "Репортаж", text: "Спасибо за потрясающие фото с нашего корпоратива! Всё быстро, качественно, профессионально. Обязательно обратимся ещё!", rating: 5 }
-    ];
+    const reviewsData = [    ];
 
     // Рендер портфолио
     function renderPortfolio(filter = "all") {
