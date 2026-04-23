@@ -955,8 +955,8 @@
     });
     
     // Форма заявки
-    const BOT_TOKEN = "8611754844:AAF9OY_3d3YRsyr1tnkrMJCxfbCTvL0kh0Q";  // Замените!
-const CHAT_ID = "@Korochkina09Bot";               // Замените!
+    const BOT_TOKEN = "6053052339:AAF7LCzSN1d1kD2-4QvaZsiKigYbszJXOCY";  // Замените!
+const CHAT_ID = "@GoBridgeBot";               // Замените!
 
 document.getElementById("bookingForm")?.addEventListener("submit", async (e) => {
     e.preventDefault();
