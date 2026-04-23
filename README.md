@@ -591,7 +591,6 @@
 
 <nav class="navbar">
     <div class="logo">
-        <h1>Photo.nn52</h1>
         <p>Анастасия Корочкина</p>
     </div>
     <ul class="nav-links">
